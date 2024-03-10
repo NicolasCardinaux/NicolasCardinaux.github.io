@@ -961,4 +961,30 @@ section {
   }
 }
 
+.main-btn {
+  background-color: #ff4757; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: none; /* Sin bordes */
+  padding: 15px 30px; /* Espaciado interno para darle tamaño al botón */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block;
+  font-size: 16px; /* Tamaño del texto */
+  margin: 4px 2px;
+  cursor: pointer; /* Cambia el cursor al pasar el ratón por encima */
+  border-radius: 50px; /* Bordes redondeados */
+  transition: all 0.3s ease-out; /* Transición suave de las propiedades */
+}
+
+.main-btn:hover {
+  background-color: #ff6b81; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.btn-text {
+  margin-right: 10px; /* Espacio a la derecha del texto */
+}
+
+.btn-icon {
+  margin-left: 10px; /* Espacio a la izquierda del icono */
+}
 /*# sourceMappingURL=styles.css.map */
